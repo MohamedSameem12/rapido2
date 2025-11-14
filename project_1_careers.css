@@ -1,0 +1,636 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+.overall {
+    height: 100vh;
+    width: 100%;
+}
+
+/* header  */
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.rapido {
+    height: 40px;
+    width: 100px;
+    background-color: gold;
+    padding: 2px 10px;
+    border-radius: 40px;
+    margin-left: 5%;
+    font-family: "Rubik Distressed", system-ui;
+    font-size: x-large;
+    font-weight: bold;
+
+    font-family: "Condiment", cursive;
+    font-weight: 600;
+}
+
+.rapidologo {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: larger;
+
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+}
+
+.downloadapp {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 25px;
+
+    font-family: "Condiment", cursive;
+    font-weight: 600;
+}
+
+.downloadapplink {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.list:hover {
+    text-decoration: underline;
+}
+
+/* child1 */
+.child1 {
+    width: 100%;
+    height: auto;
+    /* margin-top:200px; */
+    /* border:2px solid red; */
+    display: flex;
+}
+
+.c1_1 {
+    width: 50%;
+    height: 100%;
+    /* border:2px solid; */
+}
+
+.c1_1_h1 {
+    margin-top: 30%;
+    margin-left: 10%;
+    font-size: 50px;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+.c1_1_p {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.viewjob {
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 30px;
+    padding: 4px 14px;
+    margin-top: 5%;
+    margin-left: 10%;
+
+    font-family: "Condiment", cursive;
+    font-weight: 600;
+    font-size: small;
+}
+
+.viewjob:hover {
+    opacity: 0.6
+}
+
+.c1_2 {
+    width: 50%;
+    height: 100%;
+    padding-top: 50%;
+    /* border:2px solid red; */
+    position: relative;
+}
+
+.c1_2_i1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 80px;
+    border-bottom-right-radius: 0px;
+    /* margin-top:20%; */
+    position: absolute;
+    top: 20%;
+    left: 15%;
+
+}
+
+.c1_2_i2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    border-top-left-radius: 0px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    /* margin-top: 10%; */
+}
+
+.green {
+    width: 150px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 60px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+.gold {
+    width: 35px;
+    height: 150px;
+    background-color: gold;
+    border-radius: 60px;
+    border-top-right-radius: 0px;
+    position: absolute;
+    top: 63%;
+    left: 58%;
+}
+
+/* child2  */
+.child2 {
+    width: 100%;
+    height: 300px;
+    /* border:2px solid red; */
+    display: flex;
+    /* position:relative; */
+}
+
+.c2_1 {
+    width: 33%;
+    height: 100%;
+    /* border:solid; */
+}
+
+.c2_h2 {
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 30px;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+span {
+    border-bottom: 5px solid gold;
+}
+
+.c2_2 {
+    width: 33%;
+    height: 100%;
+}
+
+.c2_3 {
+    width: 33%;
+    height: 100%;
+}
+
+#c2_i1,
+#c2_i2,
+#c2_i3 {
+    margin-top: 10%;
+    margin-left: 10%
+}
+
+#c2_i2,
+#c2_i3 {
+    margin-top: 30%;
+}
+
+.c2_p1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    opacity: 0.8;
+    font-size: 20px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+
+}
+
+.c2_p2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    opacity: 0.8;
+    font-size: 20px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+/* child3  */
+.child3 {
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    overflow: auto;
+    display: flex;
+}
+
+.child3::-webkit-scrollbar {
+    display: none;
+}
+
+.c3_i1,
+.c3_i2,
+.c3_i3 {
+    width: 300px;
+    height: 300px;
+    margin-left: 8%;
+}
+
+/* child4  */
+.child4 {
+    width: 100%;
+    height: auto;
+}
+
+.child4>h2 {
+    text-align: center;
+    font-size: 30px;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+.child4 span {
+    border-bottom: 4px solid gold;
+}
+
+.c4_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.c4_b1,
+.c4_b2 {
+    width: 30%;
+    height: 50%;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+.c4_b1>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-top: 5px solid gold;
+    border-left: 5px solid gold;
+    margin-top: 6%;
+    margin-left: 10%
+}
+
+.c4_b2>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-top: 5px solid gold;
+    border-left: 5px solid gold;
+    margin-top: 6%;
+    margin-left: 10%
+}
+
+.p1,
+.p2,
+.p3 {
+    margin-left: 10%;
+    margin-top: 4px
+}
+
+.p1 {
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.p2 {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+
+}
+
+.p3 {
+    opacity: 0.7;
+    font-size: 15px;
+    font-family: "Bigshot One", serif;
+    font-weight: 600;
+}
+
+/* child5  */
+.child5 {
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    /* border: solid white; */
+    background-color: black;
+    display: flex;
+
+}
+
+.child5_1 {
+    width: 35%;
+    height: 100%;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    /* border:2px solid white; */
+    /* color:white; */
+}
+
+.customerapp {
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.captainapp {
+    color: white;
+    margin-top: 42px;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.getitimage1 {
+    height: 100px;
+    width: 150px;
+}
+
+.getitimage2 {
+    width: 130px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.child5_2 {
+    width: 35%;
+    height: 100%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border:2px solid white; */
+}
+
+.child5_2_a,
+.child5_2_b,
+.child5_2_c {
+    /* height:100%; */
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 20px;
+    margin-top: 20px;
+    /* column-gap: 3px; */
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.child5_2_a {
+    /* margin-top:40px; */
+    padding-top: px
+}
+
+.child5_3 {
+    width: 35%;
+    height: 100%;
+    /* border:2px solid white; */
+}
+
+.followas {
+    color: white;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 18%;
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.iconparent {
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .header {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .downloadapp_p {
+        width: 100%;
+        padding-left: 65%;
+    }
+
+    .about_p {
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:634px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+        align-items: normal;
+    }
+
+    .rapido_p {
+        width: 100%;
+    }
+
+    .about_p {
+        margin-left: 0px;
+        justify-content: space-between;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .downloadapp_p {
+        padding-left: 50%;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .overall {
+        height: 1300px;
+    }
+
+    .about {
+        font-size: small;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    .downloadapp_p {
+        padding-left: 40%;
+    }
+}
+
+@media screen and (max-width:522px) {
+    .about {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .ol_2 {
+        padding-top: 23px;
+        gap: 2px;
+        font-size: large;
+
+    }
+}
+
+@media screen and (max-width:540px) {
+    .ol_2 {
+        padding-top: 30px;
+        /* border: solid; */
+    }
+
+    @media screen and (max-width:383px) {
+        .ol_2 {
+            gap: 8px;
+        }
+    }
+
+
+    @media screen and (max-width:1054px) {
+        .iconparent {
+            display: grid;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .followas {
+            margin-top: 8%;
+        }
+    }
+}
+
+@media screen and (max-width:762px) {
+    .child1 {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .c1_1,
+    .c1_2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:562px) {
+    .child2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .c2_1,
+    .c2_2,
+    .c2_3 {
+        width: 100%;
+    }
+
+    .c3_i1,
+    .c3_i2,
+    .c3_i3 {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .c4_1 {
+        flex-direction: column;
+    }
+
+    .c4_b1,
+    .c4_b2 {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:940px) {
+
+    .child5 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .child5_1,
+    .child5_2,
+    .child5_3 {
+        width: 100%;
+    }
+
+    .child5_3 {
+        height: 300px;
+        text-align: center;
+    }
+
+    .iconparent {
+        height: 30%;
+        margin-left: 0px;
+        justify-content: center;
+        /* border: solid white; */
+    }
+}

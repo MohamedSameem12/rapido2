@@ -1,0 +1,703 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fugaz+One&family=Geo:ital@0;1&family=Knewave&family=Revalia&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Geo:ital@0;1&family=Knewave&family=Revalia&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Revalia&family=Righteous&display=swap');
+
+
+body {
+    /* background-color: red; */
+    width: 100%;
+}
+
+.overall {
+    /* height:100vh; */
+    width: 100%;
+}
+
+
+
+
+/* header  */
+.header {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    z-index: 3;
+    align-items: center;
+    /* gap:40%; */
+    /* border:solid red; */
+
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+}
+
+.rapidodiv {
+    width: 100%;
+    height: 40%;
+    /* border:solid; */
+}
+
+.rapido {
+    height: 40px;
+    width: 100px;
+    background-color: gold;
+    padding: 2px 10px;
+    border-radius: 40px;
+    margin-left: 20%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.oldiv {
+    width: 100%;
+    height: 40%;
+    /* border:solid;   */
+    /* background-color: aqua; */
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+
+    font-size: larger;
+}
+
+.list:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.aboutuslink {
+    text-decoration: none;
+    color: black;
+}
+
+/* child1 */
+.child1 {
+    width: 100%;
+    height: auto;
+    /* border:2px solid; */
+    background-image: url(https://i.pinimg.com/736x/a6/cf/ee/a6cfee4bf73277ac3fac5210fbcd9f4e.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 80px 0%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.child1 h1 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+.i1_parent {
+    width: 350px;
+    height: 70px;
+    /* border:2px solid red; */
+    margin: 1% auto;
+    position: relative;
+}
+
+#i1 {
+    left: 1%;
+    top: 47%;
+}
+
+#i2 {
+    left: 1%;
+    top: 47%;
+}
+
+.inputbox {
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    font-size: large;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+
+.pickup {
+    position: absolute;
+    top: 58px;
+    left: 10px;
+}
+
+.drop {
+    position: absolute;
+    top: 158px;
+    left: 10px;
+}
+
+.btn_parent {
+    width: 350px;
+    height: 70px;
+    /* border:2px solid; */
+    margin: 0 auto;
+}
+
+.bookride {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: gold;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: none;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 500;
+}
+
+.bookaridelink {
+    text-decoration: none;
+    color: black;
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+
+}
+
+h2 {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+.ourword {
+    border-bottom: 4px solid gold;
+    /* color:white; */
+
+    /* font-family: "Knewave", system-ui;
+  font-weight: 500;
+  font-style: normal; */
+}
+
+.word {
+    color: white;
+    border-bottom: 4px solid gold;
+
+}
+
+
+/* child2 */
+.child2 {
+    width: 100%;
+    height: 700px;
+    /* background-color: aqua; */
+    /* display: flex; */
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.child2_1 {
+    height: 150px;
+    width: 150px;
+    margin-left: 30%;
+
+
+}
+
+.vehicle {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+}
+
+.vname {
+    margin: 10px 40px;
+    font-size: large;
+
+
+
+}
+
+.bike {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.auto,
+.car {
+    transform: rotatey(180deg)
+}
+
+.child2_2 {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* child3 */
+.child3 {
+    height: 1400px;
+    width: 100%;
+    background-color: aliceblue;
+    display: grid;
+    /* grid-template-columns:1fr 1fr ; */
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+
+}
+
+.child3_1 {
+
+    width: 100%;
+    height: 600px;
+    /* border:2px solid ; */
+}
+
+.bookaridelink2 {
+    text-decoration: none;
+    color: white;
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-size: small;
+}
+
+.child3_c1 {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-weight: 600;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 600;
+}
+
+.child3_c2 {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+    line-height: 30px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 500;
+}
+
+.bookaride {
+    height: 50px;
+    width: 160px;
+    margin: 60px 50px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 12px;
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.child3 button a {
+    font-size: 18px;
+
+}
+
+.child3_2 {
+    width: 100%;
+    height: 600px;
+    /* border:2px solid ; */
+}
+
+.c3_2_image {
+    margin: 50px 60px;
+    height: 80%;
+    width: 80%;
+}
+
+
+.child3_3 {
+    height: 600px;
+    width: 100%;
+    /* border:2px solid black; */
+}
+
+.child3_4 {
+    height: 600px;
+    width: 100%;
+    /* border:2px solid black; */
+}
+
+.c3_3image {
+    width: 90%;
+    height: 90%;
+    margin: 30px 50px
+}
+
+.startearnings {
+    padding: 12px 2px;
+}
+
+/* child4  */
+.child4 {
+    width: 100%;
+    height: 500px;
+    /* border:2px solid black; */
+    display: flex;
+}
+
+.child4_1 {
+    height: 100%;
+    width: 50%;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.child4_c1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 10%;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+.child4_c2 {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 10%;
+    line-height: 30px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+
+}
+
+.child4_c3 {
+    font-size: 30px;
+    margin-left: 10%;
+    text-decoration: none;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+
+
+}
+
+.child4_2 {
+    height: 100%;
+    width: 50%;
+    /* border:2px solid black; */
+}
+
+.child4_img {
+    height: 90%;
+    width: 90%;
+    margin: 20px 20px;
+}
+
+/* child5 */
+.child5 {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+
+.child5_h1 {
+    color: white;
+    text-align: center;
+    font-family: "Bigshot One", serif;
+    font-weight: 600;
+}
+
+.rapidologo {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.child5_p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child5_p1,
+.child5_p2 {
+    width: 100%;
+    /* border:solid red; */
+    color: white;
+    font-size: 30px;
+    margin: 20px 10%;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+
+}
+
+.p_font {
+    text-align: center;
+    color: white;
+}
+
+/* child6 */
+.child6 {
+    width: 95%;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* child7 */
+.child7 {
+    height: 300px;
+    width: 96%;
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-left: 15px;
+}
+
+.child7_1 {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.rap2 {
+    margin-top: 40px;
+    margin-left: 70px;
+
+    font-family: "Condiment", cursive;
+    font-weight: 600;
+}
+
+.child7_2 {
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.child7_a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 10px
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+}
+
+.footerpara {
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0.5;
+    font-size: large;
+}
+
+@media screen and (max-width:346px) {
+    /* .overall {} */
+
+    .header {
+        width: 85%;
+        height: 15%;
+        grid-template-columns: minmax(150px, 1fr);
+        row-gap: 0px;
+        column-gap: 0px;
+    }
+
+    .child1 {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width:347px) {
+
+    .child1 {
+        width: 100%;
+        padding-top: 200px;
+        /* border: solid; */
+    }
+}
+
+@media screen and (max-width:523px) {
+    .child2 {
+        height: 1600px;
+    }
+
+}
+
+@media screen and (max-width:594px) {
+    .child3 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child4 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .child4_1,
+    .child4_2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:552px) {
+    .child5 {
+        height: auto;
+    }
+
+    .child5_p {
+        flex-direction: column;
+    }
+
+    .p_font {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1235px) {
+    .footer {
+        width: 100%;
+        text-align: center;
+        /* border:solid; */
+    }
+}
+
+@media screen and (max-width:413px) {
+    .child7 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .child7_1,
+    .child7_2 {
+        width: 100%;
+    }
+
+    .child7_2 {
+        margin-left: 80px;
+    }
+}
+
+
+
+
+
+
+
+/*       
+            @media screen and  (max-width:575px)  {
+                 .overall{
+                    width:100%;
+                    text-align: center;
+                 }
+                .header{
+            
+                  width:100%;
+                 height:15%;
+                gap:10%;
+            }
+            .rapido{
+                margin-left:5px;
+            }
+            ol.about{
+                font-size: large;
+            }
+              .child2{
+                height:1400px;
+
+              }
+              .child5_h1{
+             margin-left: 25%;
+                
+              }
+            .footer{
+                width:100%;
+            }
+              .footerpara{
+                margin:10px 0%;
+                text-align: center;
+
+              }
+              .child3{
+                gap:0px;
+              }
+              .child3_1{
+                width:80%;
+              }
+            
+              .child3_2{
+                width:100%;
+                margin-left:0px;
+              }
+              .c3_2_image{
+                width:60%;
+                margin:50px 45px;
+              }
+              .child4_img{
+                margin:10px;
+              }
+              .rapido.rap2{
+                margin-left:10%;
+}}
+ */

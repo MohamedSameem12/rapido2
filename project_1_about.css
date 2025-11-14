@@ -1,0 +1,886 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+
+
+.overall {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* header  */
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 40px;
+    /* border:solid; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* gap:10%; */
+    z-index: 3;
+    position: fixed;
+}
+
+.rapido_p {
+    width: 15%;
+    /* border: solid; */
+    /* background-color: aquamarine; */
+    /* margin-left:auto; */
+}
+
+.about_p {
+    width: 45%;
+    /* border: solid; */
+
+    /* background-color: aqua; */
+}
+
+.downloadapp_p {
+    width: 40%;
+    /* border: solid; */
+
+    /* background-color: rgb(50, 98, 98); */
+    padding-left: 10%;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.rapido {
+    height: 40px;
+    width: 100px;
+    /* border: solid; */
+    background-color: gold;
+    padding: 2px 10px;
+    border-radius: 40px;
+    margin-left: 5%;
+
+    font-family: "Condiment", cursive;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.rapidologo {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    display: flex;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    gap: 40px;
+    /* border: solid; */
+    font-size: larger;
+
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+
+
+}
+
+
+.downloadapp {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 25px;
+
+    font-family: "Condiment", cursive;
+    font-weight: 600;
+}
+
+.downloadapplink {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+/* child1 */
+.child1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* border:solid; */
+    z-index: 2;
+}
+
+.child1_1 {
+    width: 50%;
+    height: 100%;
+    /* line-height: 20px; */
+    margin: 100px 40px;
+    /* border:solid red; */
+
+}
+
+.child1_2 {
+    width: 50%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* border:solid pink; */
+    z-index: 1;
+    position: relative;
+}
+
+.child1_2_1 {
+    width: 100%;
+    height: 700px;
+    /* border:solid red; */
+}
+
+.p1 {
+    font-size: xxx-large;
+    line-height: 60px;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 300;
+}
+
+.opacity {
+    opacity: 0.5
+}
+
+.bold {
+    font-weight: 1000;
+    opacity: 2.0;
+}
+
+.p2,
+.p3 {
+    margin-top: 10%;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 30px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.p4 {
+    margin-top: 40%;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 30px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+#cha {
+    border-bottom: 2px solid gold;
+}
+
+.bgshape {
+    width: 44%;
+    height: 55%;
+    background-color: rgb(255, 240, 221);
+    border-radius: 150px;
+    /* transform:skewx(20deg); */
+    transform: rotatey(40deg);
+    transform: rotate(-38deg);
+    position: absolute;
+    top: -30px;
+    left: 23%;
+}
+
+.img1 {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    border-radius: 90px;
+    border-bottom-right-radius: 0px;
+}
+
+.img2 {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+}
+
+.white {
+    height: 30px;
+    width: 20%;
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    background-color: rgb(235, 116, 116);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    ;
+}
+
+.gold {
+    height: 15%;
+    width: 10%;
+    background-color: gold;
+    position: absolute;
+    top: 26%;
+    left: 32%;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+}
+
+.child1_2_2 {
+    width: 100%;
+    height: 700px;
+    /* border:solid red; */
+    display: flex;
+
+    flex-wrap: wrap;
+    /* margin-top:0px; */
+}
+
+.img_p1 {
+    width: 33%;
+    height: 60%;
+    margin-top: 10%;
+    /* border:solid gray; */
+}
+
+.im1 {
+    height: 100px;
+    width: 100px;
+    margin: 25% 20%;
+
+    /* position: absolute; */
+    /* top:33%;
+    left:42%; */
+    border-top: 10px solid gold;
+    border-left: 10px solid gold;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+}
+
+.im2 {
+    height: 100px;
+    width: 100px;
+    margin: 25% 20%;
+    /* position: absolute; */
+    border-top: 10px solid gold;
+    border-left: 10px solid gold;
+    /* top:33%;
+    left:12%; */
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+}
+
+.im3 {
+    height: 100px;
+    width: 100px;
+    margin: 25% 20%;
+
+    /* position: absolute;  */
+    border-top: 10px solid gold;
+    border-left: 10px solid gold;
+    /* top:33%; */
+    /* left:72%; */
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+}
+
+.p_1 {
+    /* position:relative;
+    top:63%;
+    left:13%; */
+    margin: 10% 20%;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 700;
+}
+
+.p_2 {
+    /* position:relative;
+    top:63%;
+    left:23%; */
+    margin: 10% 20%;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 700;
+}
+
+.p_3 {
+    /* position:relative;
+    top:63%;
+    left:33%; */
+    margin: 10% 20%;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 700;
+}
+
+/* child3  */
+
+.child3 {
+    width: 100%;
+    height: 600px;
+    margin-top: 40%;
+    /* border:solid red; */
+    background-image: url(https://media.glassdoor.com/l/07/bd/66/d0/management-trainees.jpg?signature=eabbaa3805b0bbc1672c47b8ad3fe7ef6ab6a63e05351648bb87395092bff558);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+}
+
+.h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-left:30%; */
+    padding-top: 3%;
+    font-size: 80px;
+
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 600;
+}
+
+.para1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* border:solid; */
+    /* margin-left:20%; */
+    margin-top: 2%;
+    font-size: 30px;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.workwithus {
+    height: 50px;
+    width: 150px;
+    /* display: flex;
+    justify-content: center; */
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    background-color: black;
+    margin-left: 42%;
+    margin-top: 2%;
+
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+}
+
+.workwithuslink {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/* child4 */
+.child4 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    /* border:solid red; */
+    /* flex-wrap: wrap; */
+
+}
+
+.child4_1 {
+    width: 35%;
+    height: 90%;
+    padding-left: 15px;
+    display: grid;
+    /* border:solid white; */
+    grid-template-columns: 1fr 1fr;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    /* border:solid white; */
+}
+
+.customerapp {
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.captainapp {
+    color: white;
+    margin-top: 42px;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.getitimage1 {
+    height: 100px;
+    width: 150px;
+}
+
+.getitimage2 {
+    width: 130px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.child4_2 {
+    width: 35%;
+    height: 90%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border:2px solid white; */
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.child4_2_a,
+.child4_2_b,
+.child4_2_c {
+    /* height:100%; */
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 20px;
+    margin-top: 20px;
+    /* column-gap: 3px; */
+}
+
+.child4_2_a {
+    /* margin-top:40px; */
+    padding-top: px
+}
+
+.child4_3 {
+    width: 35%;
+    height: 90%;
+    /* border:2px solid white; */
+
+
+}
+
+.followas {
+    color: white;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 18%;
+
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+}
+
+.iconparent {
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    padding-left: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* header media query  */
+
+@media screen and (max-width:991px) {
+    .header {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .downloadapp_p {
+        width: 100%;
+        padding-left: 65%;
+    }
+
+    .about_p {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .child3 {
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width:634px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+        align-items: normal;
+    }
+
+    .rapido_p {
+        width: 100%;
+    }
+
+    .about_p {
+        margin-left: 0px;
+        justify-content: space-between;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .downloadapp_p {
+        padding-left: 50%;
+    }
+
+    .child1 {
+        padding-top: 5%;
+    }
+
+    .child3 {
+        height: 500px;
+        text-align: center;
+    }
+
+    .child3 h2 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:422px) {
+    .overall {
+        height: 1300px;
+    }
+
+    .about {
+        font-size: small;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    .downloadapp_p {
+        padding-left: 40%;
+    }
+
+    .child1 {
+        width: 100%;
+    }
+
+    .child1_2_2 {
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .img_p1 {
+        /* width:100%; */
+    }
+
+    .child3 {
+        margin-top: 20px;
+    }
+
+    .child3 {
+        padding-top: 20%;
+    }
+
+    .workwithus {
+        margin-top: 20%;
+    }
+
+}
+
+@media screen and (max-width:522px) {
+    .child1 {
+        padding-top: 13%;
+    }
+}
+
+@media screen and (max-width:311px) {
+    .overall {
+        height: 1400px;
+    }
+
+    .child1 {
+        padding-top: 15%;
+    }
+
+    .img_p1 {
+        /* border:solid; */
+    }
+
+}
+
+@media screen and (max-width:1278px) {
+    .child1 {
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+    .child1_2 {
+        height: auto;
+    }
+
+    .child3 {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width:879px) {
+    .child1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .child1_1,
+    .child1_2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .child3 {
+        margin-top: 1800px;
+    }
+}
+
+@media screen and (max-width:359px) {
+
+    .img1 {
+        width: 150px;
+    }
+
+    .img2 {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:1055px) {
+
+    .child4 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .child4_1,
+    .child4_2,
+    .child4_3 {
+        width: 100%;
+    }
+
+    .child4_3 {
+        height: 300px;
+        text-align: center;
+    }
+
+    .iconparent {
+        height: 30%;
+        margin-left: 0px;
+        justify-content: center;
+        /* border: solid white; */
+    }
+
+
+}
+
+
+
+
+
+/* child1 media query  */
+
+
+/* @media screen and (max-width:575px){
+    .header{
+        height:165px;
+        flex-wrap: wrap;
+
+        gap:0px;
+    }
+
+.rapido_p{
+    height:50px;
+    width:100%;
+   align-items: center;
+}
+.about{
+    font-size: medium;
+}
+.about_p{
+    height:30px;
+    width:100%;
+    border:solid;
+}
+.downloadapp_p{
+    height:60px;
+    width:100%;
+    border:solid;
+ padding-left:50%;
+
+}
+.downloadapplink{
+    font-size:large ;
+}
+
+
+.child1{
+    width:100%;
+    height:2500px;
+    padding-top:100px;
+    border: solid;
+    flex-wrap: wrap;
+}
+.child1_1{
+    height:1100px;
+    width:100%;
+}
+.child1_2{
+    width:100%;
+    height:1000px;
+    margin-top:0px;
+}
+
+.child3{
+    margin-top:2000px;
+    border:solid white;
+}
+.h2{
+    font-size: 60px;
+    padding-top:30%;
+
+}
+.para1{
+       padding-top:20%;
+
+}
+.workwithus{
+        margin-top:10%;
+
+    margin-left:35%;
+}
+.child4{
+    height:1000px;
+    flex-direction: column;
+}
+.child4_1,.child4_2,.child4_3{
+    width:100%;
+}
+}  */
+/* @media screen and (min-width:576px) and (max-width:991px){
+  .header{
+        height:120px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .rapido_p{
+        width:16%;
+    }
+    .about_p{
+        width:60%;
+    }
+    .about{
+        font-size: large;
+        gap:20px;
+    }
+    .downloadapp_p{
+        width:100%;
+        padding-left:5px;
+    }
+    .downloadapp{
+        font-size: 10px;
+    }
+    .child4{
+        flex-wrap: wrap;
+    }
+    .child4_1,.child4_2,.child4_3{
+        width:33%;
+        border:solid white;
+    }
+}
+ */
+
+/* @media screen and (min-width:576px) and (max-width:991px){
+  .header{
+        height:120px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .rapido_p{
+        width:16%;
+    }
+    .about_p{
+        width:100%;
+    }
+    .about{
+        font-size: large;
+        gap:20px;
+    }
+    .downloadapp_p{
+        margin-right: 100px;;
+        padding-left:5px;
+        width:100%;;
+
+    }
+    .downloadapp{
+        font-size: 10px;
+        width:100px;
+    }
+    .downloadapplink{
+        font-size: 20px;
+        padding:0px;
+        width:50px;
+    }
+    .child1{
+        height:1300px;
+        border:solid;
+    }
+    .child1_1{
+        height:90%;
+        border: solid;
+    }
+    .child1_2{
+        border:solid;
+        height:90%;
+    }
+    .child3{
+        margin-top:80%;
+    }
+    .child4{
+        flex-wrap: wrap;
+    }
+    .child4_1,.child4_2,.child4_3{
+        width:33%;
+        border:solid white;
+    }
+    .child1_1{
+        padding-top: 30px;
+    }
+    .child1_2{
+        width:500px;;margin-right: 10px;;
+    }
+} */
